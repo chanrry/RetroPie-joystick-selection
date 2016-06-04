@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # jslist.py
 #
+# Dependencies: python3 and python3-pygame
+# [prompt]$ sudo apt-get install python3 python3-pygame
+#
 # This little program just list the joysticks connected to the system.
 # The ouput format is "index:JoystickName".
 # It returns a non-zero value if no joystick was found; otherwise, zero.
