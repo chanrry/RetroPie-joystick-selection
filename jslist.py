@@ -17,6 +17,6 @@ if num_joy < 1:
     quit(-1)
 
 for i in range(num_joy):
-    print(i,":",pygame.joystick.Joystick(i).get_name())
+    print(i,":",pygame.joystick.Joystick(i).get_name(), sep="")
 
 pygame.joystick.quit()
